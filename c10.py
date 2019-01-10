@@ -2,7 +2,7 @@ n=int(input())
 a=1
 b=1
 if n==1:
-	print(a,end=" ")
+	print(a)
 else:
 	print(a,end=" ")
 	print(b,end=" ")
