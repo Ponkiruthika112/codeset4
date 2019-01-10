@@ -7,5 +7,8 @@ for i in range(0,n-2):
 	c=a+b
 	a=b
 	b=c
-	print(c,end=" ")
-print()
+	if i==n-3:
+		print(c)
+	else:
+		print(c,end=" ")
+
