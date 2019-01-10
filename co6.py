@@ -6,6 +6,6 @@ sp=s.count(" ")
 for i in s:
   if i.isalpha():
     c=c+1
-  elif i.isdigits():
+  elif i.isdigit():
     c=c+1
 print(k-c-sp)
