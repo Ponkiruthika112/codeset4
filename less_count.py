@@ -1,4 +1,4 @@
-n,k=input()
+n=input()
 l=list(map(int,input().split()))
 c=0
 for i in range(0,len(l)-1):
