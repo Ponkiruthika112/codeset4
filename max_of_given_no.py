@@ -7,9 +7,6 @@ while val<=m:
 	if(l.count(val)>=1):
 		print(val)
 		break
-	else:
-		if(l.count(m)>=1):
-			print(m)
 else:
 	print("no")
-#max_of_given_no
+#max_of_given_nor
