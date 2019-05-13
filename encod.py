@@ -14,7 +14,5 @@ while j<len(s):
  
 	j=j+1
 k=k+s[i]+str(c)
-if s[len(s)-1]!=s[len(s)-2]:
-		k=k+s[len(s)-1]+str(1)
 print(k)
 #encoding
