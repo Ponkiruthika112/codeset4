@@ -6,5 +6,5 @@ k=""
 for i in range(0,len(l)):
 	s=s+l[i]
 	k=k+str(s)+" "
-print(k)
+print(k.strip())
 #prefix
