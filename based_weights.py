@@ -5,7 +5,7 @@ l=list(map(int,input().split()))
 k=list(map(int,input().split()))
 for i in range(0,len(k)):
 	p.append([l[i],k[i]])
-p.sort(key=lambda x:x[1],reverse=True)
+p.sort(key=lambda x:x[1])
 s=""
 for i in range(0,len(p)):
 	s=s+str(p[i][0])+" "
