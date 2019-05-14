@@ -1,7 +1,7 @@
 n,k=map(int,input().split())
 l=[]
 p=[]
-c=0
+c=1
 for i in range(0,n):
 	s=input()
 	l.append(s)
@@ -10,7 +10,8 @@ for i in range(0,len(l)-1):
 		c=c+1
 	else:
 		p.append(c)
-		c=0
+		c=1
+p.append(c)
 if p.count(k)!=0:
 	print("yes")
 else:
