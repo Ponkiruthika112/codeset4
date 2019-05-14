@@ -11,7 +11,7 @@ for i in range(0,len(l)-1):
 	else:
 		p.append(c)
 		c=0
-if p.count:
+if p.count(k)!=0:
 	print("yes")
 else:
 	print("no")
