@@ -8,5 +8,5 @@ while i<len(s):
 	else:
 		k=k+s[i]+s[i+1]
 	i=i+2
-print(k)
+print(k.strip())
 #encode
